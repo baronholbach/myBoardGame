@@ -464,11 +464,26 @@ class ViewController: UIViewController {
     func checkForDragOverlap(sender: UIButton) {
         for zone in playerBoardView.subviews {
             let absFrame = self.view.convert(zone.frame, from:playerBoardView)
+            for subview in zone.subviews {
+                if zone.tag == 2 && zone.superview == playerBoardView {
+                subview.layer.borderWidth = 0
+                }
+            }
             if !(zone is UIStackView) && zone.superview == playerBoardView {
                 if zone.isHidden == false {
-                    if sender.frame.intersects(absFrame) {
+                    //if sender.frame.intersects(absFrame) {
+                    if absFrame.contains(sender.center) {
+                        if zone.tag == 2 {
+                            for subview in zone.subviews {
+                            subview.layer.borderColor = UIColor.blue.cgColor
+                            subview.layer.borderWidth = 3
+                            }
+                            
+                        }
+                        else {
                         zone.layer.borderColor = UIColor.blue.cgColor
                         zone.layer.borderWidth = 3
+                        }
                     }
                     else {
                         zone.layer.borderWidth = 0
