@@ -1,0 +1,498 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D83BE6921F9D6A910062C583 /* ProductionWheel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83BE6911F9D6A910062C583 /* ProductionWheel.swift */; };
+		D83BE6941F9DA21B0062C583 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83BE6931F9DA21B0062C583 /* Player.swift */; };
+		D83BE6961F9DA3600062C583 /* Brother.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83BE6951F9DA3600062C583 /* Brother.swift */; };
+		D83BE6981F9EC8230062C583 /* Building.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83BE6971F9EC8230062C583 /* Building.swift */; };
+		D83BE69A1FA04D630062C583 /* BuildingDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83BE6991FA04D630062C583 /* BuildingDB.swift */; };
+		D83BE69D1FA18F890062C583 /* IrelandBuildingsDB.csv in Resources */ = {isa = PBXBuildFile; fileRef = D83BE69C1FA1862F0062C583 /* IrelandBuildingsDB.csv */; };
+		D8746B701FAD5A440038D925 /* PlayerBoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8746B6F1FAD5A440038D925 /* PlayerBoardView.swift */; };
+		D8C5D5F51FB158F400ECD157 /* PlayerBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8C5D5F41FB158F400ECD157 /* PlayerBoard.swift */; };
+		D8C5D5F71FB15B3000ECD157 /* PurchaseDisplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8C5D5F61FB15B3000ECD157 /* PurchaseDisplay.swift */; };
+		D8CFB12A1F99B11A00BE20C1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8CFB1291F99B11A00BE20C1 /* AppDelegate.swift */; };
+		D8CFB12C1F99B11A00BE20C1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8CFB12B1F99B11A00BE20C1 /* ViewController.swift */; };
+		D8CFB12F1F99B11A00BE20C1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8CFB12D1F99B11A00BE20C1 /* Main.storyboard */; };
+		D8CFB1311F99B11A00BE20C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8CFB1301F99B11A00BE20C1 /* Assets.xcassets */; };
+		D8CFB1341F99B11A00BE20C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8CFB1321F99B11A00BE20C1 /* LaunchScreen.storyboard */; };
+		D8CFB13F1F99B11A00BE20C1 /* OraLabora2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8CFB13E1F99B11A00BE20C1 /* OraLabora2Tests.swift */; };
+		D8E7E6131FA4324D0054AA28 /* PurchaseDisplayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8E7E6121FA4324D0054AA28 /* PurchaseDisplayView.swift */; };
+		D8E7E6171FAC2B640054AA28 /* PlayerBoardSlot.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8E7E6161FAC2B640054AA28 /* PlayerBoardSlot.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D8CFB13B1F99B11A00BE20C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D8CFB11E1F99B11A00BE20C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D8CFB1251F99B11A00BE20C1;
+			remoteInfo = OraLabora2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D83BE6911F9D6A910062C583 /* ProductionWheel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductionWheel.swift; sourceTree = "<group>"; };
+		D83BE6931F9DA21B0062C583 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		D83BE6951F9DA3600062C583 /* Brother.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Brother.swift; sourceTree = "<group>"; };
+		D83BE6971F9EC8230062C583 /* Building.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Building.swift; sourceTree = "<group>"; };
+		D83BE6991FA04D630062C583 /* BuildingDB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildingDB.swift; sourceTree = "<group>"; };
+		D83BE69C1FA1862F0062C583 /* IrelandBuildingsDB.csv */ = {isa = PBXFileReference; lastKnownFileType = text; name = IrelandBuildingsDB.csv; path = OraLabora2/Assets/IrelandBuildingsDB.csv; sourceTree = SOURCE_ROOT; };
+		D8746B6F1FAD5A440038D925 /* PlayerBoardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerBoardView.swift; sourceTree = "<group>"; };
+		D8C5D5F41FB158F400ECD157 /* PlayerBoard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerBoard.swift; sourceTree = "<group>"; };
+		D8C5D5F61FB15B3000ECD157 /* PurchaseDisplay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchaseDisplay.swift; sourceTree = "<group>"; };
+		D8CFB1261F99B11A00BE20C1 /* OraLabora2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OraLabora2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8CFB1291F99B11A00BE20C1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D8CFB12B1F99B11A00BE20C1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D8CFB12E1F99B11A00BE20C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D8CFB1301F99B11A00BE20C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D8CFB1331F99B11A00BE20C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D8CFB1351F99B11A00BE20C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8CFB13A1F99B11A00BE20C1 /* OraLabora2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OraLabora2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8CFB13E1F99B11A00BE20C1 /* OraLabora2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OraLabora2Tests.swift; sourceTree = "<group>"; };
+		D8CFB1401F99B11A00BE20C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8E7E6121FA4324D0054AA28 /* PurchaseDisplayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchaseDisplayView.swift; sourceTree = "<group>"; };
+		D8E7E6161FAC2B640054AA28 /* PlayerBoardSlot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerBoardSlot.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D8CFB1231F99B11A00BE20C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8CFB1371F99B11A00BE20C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D83BE69B1FA1860F0062C583 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				D83BE69C1FA1862F0062C583 /* IrelandBuildingsDB.csv */,
+			);
+			name = Assets;
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		D8CFB11D1F99B11A00BE20C1 = {
+			isa = PBXGroup;
+			children = (
+				D8CFB1281F99B11A00BE20C1 /* OraLabora2 */,
+				D8CFB13D1F99B11A00BE20C1 /* OraLabora2Tests */,
+				D8CFB1271F99B11A00BE20C1 /* Products */,
+				D83BE69B1FA1860F0062C583 /* Assets */,
+			);
+			sourceTree = "<group>";
+		};
+		D8CFB1271F99B11A00BE20C1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D8CFB1261F99B11A00BE20C1 /* OraLabora2.app */,
+				D8CFB13A1F99B11A00BE20C1 /* OraLabora2Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D8CFB1281F99B11A00BE20C1 /* OraLabora2 */ = {
+			isa = PBXGroup;
+			children = (
+				D8CFB1291F99B11A00BE20C1 /* AppDelegate.swift */,
+				D8CFB12B1F99B11A00BE20C1 /* ViewController.swift */,
+				D83BE6911F9D6A910062C583 /* ProductionWheel.swift */,
+				D83BE6931F9DA21B0062C583 /* Player.swift */,
+				D8C5D5F41FB158F400ECD157 /* PlayerBoard.swift */,
+				D8746B6F1FAD5A440038D925 /* PlayerBoardView.swift */,
+				D8E7E6161FAC2B640054AA28 /* PlayerBoardSlot.swift */,
+				D8C5D5F61FB15B3000ECD157 /* PurchaseDisplay.swift */,
+				D8E7E6121FA4324D0054AA28 /* PurchaseDisplayView.swift */,
+				D83BE6971F9EC8230062C583 /* Building.swift */,
+				D83BE6951F9DA3600062C583 /* Brother.swift */,
+				D83BE6991FA04D630062C583 /* BuildingDB.swift */,
+				D8CFB12D1F99B11A00BE20C1 /* Main.storyboard */,
+				D8CFB1301F99B11A00BE20C1 /* Assets.xcassets */,
+				D8CFB1321F99B11A00BE20C1 /* LaunchScreen.storyboard */,
+				D8CFB1351F99B11A00BE20C1 /* Info.plist */,
+			);
+			path = OraLabora2;
+			sourceTree = "<group>";
+		};
+		D8CFB13D1F99B11A00BE20C1 /* OraLabora2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				D8CFB13E1F99B11A00BE20C1 /* OraLabora2Tests.swift */,
+				D8CFB1401F99B11A00BE20C1 /* Info.plist */,
+			);
+			path = OraLabora2Tests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D8CFB1251F99B11A00BE20C1 /* OraLabora2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8CFB1431F99B11A00BE20C1 /* Build configuration list for PBXNativeTarget "OraLabora2" */;
+			buildPhases = (
+				D8CFB1221F99B11A00BE20C1 /* Sources */,
+				D8CFB1231F99B11A00BE20C1 /* Frameworks */,
+				D8CFB1241F99B11A00BE20C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OraLabora2;
+			productName = OraLabora2;
+			productReference = D8CFB1261F99B11A00BE20C1 /* OraLabora2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D8CFB1391F99B11A00BE20C1 /* OraLabora2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8CFB1461F99B11A00BE20C1 /* Build configuration list for PBXNativeTarget "OraLabora2Tests" */;
+			buildPhases = (
+				D8CFB1361F99B11A00BE20C1 /* Sources */,
+				D8CFB1371F99B11A00BE20C1 /* Frameworks */,
+				D8CFB1381F99B11A00BE20C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D8CFB13C1F99B11A00BE20C1 /* PBXTargetDependency */,
+			);
+			name = OraLabora2Tests;
+			productName = OraLabora2Tests;
+			productReference = D8CFB13A1F99B11A00BE20C1 /* OraLabora2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D8CFB11E1F99B11A00BE20C1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Nathan Tompkins";
+				TargetAttributes = {
+					D8CFB1251F99B11A00BE20C1 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					D8CFB1391F99B11A00BE20C1 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D8CFB1251F99B11A00BE20C1;
+					};
+				};
+			};
+			buildConfigurationList = D8CFB1211F99B11A00BE20C1 /* Build configuration list for PBXProject "OraLabora2" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D8CFB11D1F99B11A00BE20C1;
+			productRefGroup = D8CFB1271F99B11A00BE20C1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D8CFB1251F99B11A00BE20C1 /* OraLabora2 */,
+				D8CFB1391F99B11A00BE20C1 /* OraLabora2Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D8CFB1241F99B11A00BE20C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8CFB1341F99B11A00BE20C1 /* LaunchScreen.storyboard in Resources */,
+				D8CFB1311F99B11A00BE20C1 /* Assets.xcassets in Resources */,
+				D83BE69D1FA18F890062C583 /* IrelandBuildingsDB.csv in Resources */,
+				D8CFB12F1F99B11A00BE20C1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8CFB1381F99B11A00BE20C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D8CFB1221F99B11A00BE20C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8C5D5F51FB158F400ECD157 /* PlayerBoard.swift in Sources */,
+				D8C5D5F71FB15B3000ECD157 /* PurchaseDisplay.swift in Sources */,
+				D8746B701FAD5A440038D925 /* PlayerBoardView.swift in Sources */,
+				D83BE6941F9DA21B0062C583 /* Player.swift in Sources */,
+				D8E7E6171FAC2B640054AA28 /* PlayerBoardSlot.swift in Sources */,
+				D8E7E6131FA4324D0054AA28 /* PurchaseDisplayView.swift in Sources */,
+				D83BE69A1FA04D630062C583 /* BuildingDB.swift in Sources */,
+				D83BE6981F9EC8230062C583 /* Building.swift in Sources */,
+				D8CFB12C1F99B11A00BE20C1 /* ViewController.swift in Sources */,
+				D83BE6921F9D6A910062C583 /* ProductionWheel.swift in Sources */,
+				D8CFB12A1F99B11A00BE20C1 /* AppDelegate.swift in Sources */,
+				D83BE6961F9DA3600062C583 /* Brother.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8CFB1361F99B11A00BE20C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8CFB13F1F99B11A00BE20C1 /* OraLabora2Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D8CFB13C1F99B11A00BE20C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D8CFB1251F99B11A00BE20C1 /* OraLabora2 */;
+			targetProxy = D8CFB13B1F99B11A00BE20C1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D8CFB12D1F99B11A00BE20C1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D8CFB12E1F99B11A00BE20C1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D8CFB1321F99B11A00BE20C1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D8CFB1331F99B11A00BE20C1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D8CFB1411F99B11A00BE20C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D8CFB1421F99B11A00BE20C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D8CFB1441F99B11A00BE20C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = OraLabora2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = apsgames.OraLabora2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D8CFB1451F99B11A00BE20C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = OraLabora2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = apsgames.OraLabora2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D8CFB1471F99B11A00BE20C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = OraLabora2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = apsgames.OraLabora2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OraLabora2.app/OraLabora2";
+			};
+			name = Debug;
+		};
+		D8CFB1481F99B11A00BE20C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = OraLabora2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = apsgames.OraLabora2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OraLabora2.app/OraLabora2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D8CFB1211F99B11A00BE20C1 /* Build configuration list for PBXProject "OraLabora2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8CFB1411F99B11A00BE20C1 /* Debug */,
+				D8CFB1421F99B11A00BE20C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D8CFB1431F99B11A00BE20C1 /* Build configuration list for PBXNativeTarget "OraLabora2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8CFB1441F99B11A00BE20C1 /* Debug */,
+				D8CFB1451F99B11A00BE20C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D8CFB1461F99B11A00BE20C1 /* Build configuration list for PBXNativeTarget "OraLabora2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8CFB1471F99B11A00BE20C1 /* Debug */,
+				D8CFB1481F99B11A00BE20C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D8CFB11E1F99B11A00BE20C1 /* Project object */;
+}
